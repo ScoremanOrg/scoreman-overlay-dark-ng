@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.entrants {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.entrant {
+    display: flex;
+    flex-direction: row;
+}
+
+.entrant-1,
+.entrant-3,
+.entrant-5 {
+    flex-direction: row-reverse;
+}
+
+.score,
+.player > * {
+    padding: 10px;
+}
+
+.score {
+    font-weight: bold;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+}
+
+.player-character-name {
+    display: none;
+}
+
+.player-character-color-name {
+    visibility: hidden;
+    width: 2.5ch;
+    height: 2.5ch;
+}
+
+.player-country-flag {
+    width: 2vw;
+}
+
+.game-area {
+    flex-grow: 1;
+}
+
+.tournament {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tournament-caster,
+.tournament-streamer {
+    display: none
+}
+
+.commentators {
+    padding: 20px;
+}
+
+.commentator {
+    display: flex;
+    flex-direction: row;
+}
+
+.commentator > * {
+    margin: 0 10px;
+}

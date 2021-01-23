@@ -1,0 +1,13 @@
+{
+    "name": "React overlay",
+    "baseUrl": "build",
+    "notFoundUrl": "index.html",
+    "appType": "react",
+    "overlays": [{
+        "name": "In game (widescreen)",
+        "url": "ingame-widescreen"
+    },{
+        "name": "Commentators",
+        "url": "commentators"
+    }]
+}
